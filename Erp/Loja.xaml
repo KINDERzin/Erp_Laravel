@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Erp.Loja"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#d9d9d9">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="LOJA"
+                   FontSize="Title"
+                   HorizontalTextAlignment="Center" />
+
+            <ListView ItemsSource="{Binding Produtos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Image Source="{Binding Imagem}"
+                                       WidthRequest="50"
+                                       HeightRequest="50" />
+                                <StackLayout VerticalOptions="Center"
+                                             Margin="10, 0"
+                                             Spacing="2">
+                                    <Label Text="{Binding Descricao}" />
+                                    <Label Text="{Binding Preco, StringFormat='Preço: R$ {0:F2}'}" />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="COMPRAR"
+                    Clicked="Comprar_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Erp.ListaClientesPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#d9d9d9">
+
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center">
+
+            <Image Source="logo.png"
+                   Aspect="AspectFit"
+                   Margin="0, 20, 0, 10"
+                   HeightRequest="150"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Lista de clientes"
+                   TextColor="Black"
+                   FontSize="30"
+                   HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="#d1d1d1"
+                   Margin="30, 20"
+                   HeightRequest="400"
+                   Grid.Row="1">
+                <VerticalStackLayout>
+                    <ListView x:Name="ListaClientes"
+                              HasUnevenRows="True"
+                              ItemSelected="itemSelecionado"
+                              HorizontalOptions="Fill"
+                              VerticalOptions="Fill">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <VerticalStackLayout BackgroundColor="#d1d1d1">
+                                        <HorizontalStackLayout>
+
+                                            <Label Text="{Binding Nome}"
+                                                   x:Name="labelNome"
+                                                   TextColor="Black"
+                                                   FontSize="20"/>
+
+                                            <Label Text="{Binding Sobrenome}"
+                                                   x:Name="labelSobrenome"
+                                                   TextColor="Black"
+                                                   FontSize="20"
+                                                   Margin="10,0,0,0"/>
+
+                                        </HorizontalStackLayout>
+
+                                        <Label Text="{Binding Telefone}"
+                                               x:Name="labelTelefone"
+                                               TextColor="Black"
+                                               FontSize="20"/>
+
+                                    </VerticalStackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </VerticalStackLayout>
+            </Frame>
+
+                <Button Text="Criar novo cliente"
+                        BackgroundColor="#8b8b8b"
+                        FontSize="16"
+                        TextColor="White"
+                        Clicked="NovoClienteClicked"
+                        Margin="50, 5"/>
+
+                <Button Text="Voltar"
+                        BackgroundColor="#8b8b8b"
+                        FontSize="16"
+                        TextColor="White"
+                        Clicked="clicouBotaoVoltar"
+                        Margin="50, 5"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

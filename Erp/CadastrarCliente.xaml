@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Erp.CadastrarCliente"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#d9d9d9">
+
+       <ScrollView>
+              <VerticalStackLayout VerticalOptions="Center">
+
+                     <Image Source="logo.png"
+                            Aspect="AspectFill"
+                            Margin="0, 20, 0, 10"
+                            HeightRequest="150"
+                            HorizontalOptions="Center"/>
+
+                     <Label Text="Cadastrar cliente"
+                            x:Name="labelTitulo"
+                            TextColor="Black"
+                            FontSize="30"
+                            HorizontalOptions="Center"/>
+
+                     <Frame BackgroundColor="#d1d1d1"
+                            Grid.Row="1"
+                            Grid.ColumnSpan="2"
+                            Margin="30, 20">
+                            <VerticalStackLayout>
+
+                                   <Label Text="ID cliente:"
+                                          x:Name="labelId"
+                                          IsVisible="False"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Label x:Name="labelIdCliente"
+                                          IsVisible="False"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Label Text="Nome:"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Entry Placeholder="Digite o nome"
+                                          TextColor="Black"
+                                          Margin="20, 0, 20, 10"
+                                          x:Name="NomeEntry"/>
+
+                                   <Label Text="Sobrenome:"
+                                          Margin="20, 10, 0, 5"
+                                          TextColor="Black"/>
+
+                                   <Entry Placeholder="Digite o sobrenome"
+                                          TextColor="Black"
+                                          x:Name="SobrenomeEntry"
+                                          Margin="20, 0, 20, 10"/>
+
+                                   <Label Text="CPF:"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Entry Placeholder="Digite o CPF"
+                                          TextColor="Black"
+                                          Margin="20, 0, 20, 10"
+                                          x:Name="CpfEntry"/>
+
+                                   <Label Text="Telefone:"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Entry Placeholder="Digite o telefone"
+                                          Keyboard="Telephone"
+                                          TextColor="Black"
+                                          Margin="20, 0, 20, 10"
+                                          x:Name="TelefoneEntry"/>
+
+                                   <Label Text="Endereço:"
+                                          TextColor="Black"
+                                          Margin="20, 10, 0, 5"/>
+
+                                   <Entry Placeholder="Digite o endereço c/ número"
+                                          TextColor="Black"
+                                          Margin="20, 0, 20, 10"
+                                          x:Name="EnderecoEntry"/>
+
+                                   <Button Text="Deletar cliente"
+                                           Clicked="DeletarClicked"
+                                           IsVisible="False"
+                                           x:Name="deleteButton"
+                                           TextColor="Black"
+                                           BackgroundColor="#8b8b8b"
+                                           Margin="20, 0, 20, 10"/>
+                            </VerticalStackLayout>
+                     </Frame>
+
+                     <Button Text="CONFIRMAR"
+                             TextColor="White"
+                             BackgroundColor="#8b8b8b"
+                             Clicked="OnSalvarDadosClicked"
+                             Grid.Row="2"
+                             Grid.Column="0"
+                             Margin="50, 10"/>
+
+                     <Button Text="VOLTAR"
+                             TextColor="White"
+                             BackgroundColor="#8b8b8b"
+                             Clicked="VoltarClicked"
+                             Grid.Row="2"
+                             Grid.Column="1"
+                             Margin="50, 10"/>
+              </VerticalStackLayout>
+       </ScrollView>
+</ContentPage>

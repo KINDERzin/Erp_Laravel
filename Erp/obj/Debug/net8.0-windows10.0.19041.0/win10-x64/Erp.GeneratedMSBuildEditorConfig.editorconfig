@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Erp
+build_property.ProjectDir = C:\Users\User\Documents\Programming\Apps\Erp_Laravel\Erp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/AcabamentoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.AcabamentoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AcabamentoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AcabamentoPage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarAcabamento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarAcabamento.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarAcabamento.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarAcabamento.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarCliente.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarCostureira.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarCostureira.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarCostureira.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarCostureira.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarFornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarFornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarFornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarFornecedor.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarItemEstoque.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarItemEstoque.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarItemEstoque.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarItemEstoque.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/CadastrarMateriaPrima.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.CadastrarMateriaPrima.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastrarMateriaPrima.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastrarMateriaPrima.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/EntregaProduto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.EntregaProduto.xaml
+build_metadata.AdditionalFiles.TargetPath = EntregaProduto.xaml
+build_metadata.AdditionalFiles.RelativePath = EntregaProduto.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/EstoquePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.EstoquePage.xaml
+build_metadata.AdditionalFiles.TargetPath = EstoquePage.xaml
+build_metadata.AdditionalFiles.RelativePath = EstoquePage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/FinalizarCompra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.FinalizarCompra.xaml
+build_metadata.AdditionalFiles.TargetPath = FinalizarCompra.xaml
+build_metadata.AdditionalFiles.RelativePath = FinalizarCompra.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/ListaAcabamentoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.ListaAcabamentoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaAcabamentoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaAcabamentoPage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/ListaClientePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.ListaClientePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaClientePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaClientePage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/ListaCostureiraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.ListaCostureiraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaCostureiraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaCostureiraPage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/ListaFornecedorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.ListaFornecedorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaFornecedorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaFornecedorPage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/Loja.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.Loja.xaml
+build_metadata.AdditionalFiles.TargetPath = Loja.xaml
+build_metadata.AdditionalFiles.RelativePath = Loja.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/PerfilCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.PerfilCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = PerfilCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = PerfilCliente.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/PerfilFornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.PerfilFornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = PerfilFornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = PerfilFornecedor.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/RelatorioDeVendas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.RelatorioDeVendas.xaml
+build_metadata.AdditionalFiles.TargetPath = RelatorioDeVendas.xaml
+build_metadata.AdditionalFiles.RelativePath = RelatorioDeVendas.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Documents/Programming/Apps/Erp_Laravel/Erp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Erp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

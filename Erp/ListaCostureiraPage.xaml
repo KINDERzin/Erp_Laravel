@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Erp.ListaCostureiraPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#d9d9d9">
+
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <Image Source="logo.png"
+               HeightRequest="150"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Lista de funcionários"
+               TextColor="Black"
+               FontSize="30"
+               Margin="0, 10"
+               HorizontalOptions="Center"/>
+
+        <Frame BackgroundColor="#d1d1d1"
+               Margin="40, 30"
+               HeightRequest="300">
+            <VerticalStackLayout>
+                <ListView x:Name="ListaCostureira"
+                          HasUnevenRows="True"
+                          ItemSelected="itemSelecionado"
+                          HorizontalOptions="Fill"
+                          VerticalOptions="Fill">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <VerticalStackLayout BackgroundColor="#d1d1d1">
+                                    <HorizontalStackLayout>
+
+                                        <Label Text="{Binding Nome}"
+                                               TextColor="Black"
+                                               FontSize="20"/>
+
+                                    </HorizontalStackLayout>
+
+                                    <Label Text="{Binding Telefone}"
+                                           TextColor="Black"
+                                           FontSize="20"/>
+
+                                </VerticalStackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+        </Frame>
+
+        <Button Text="Adicionar novo(a) funcionário(a)"
+                BackgroundColor="#8b8b8b"
+                FontSize="16"
+                TextColor="Black"
+                Clicked="NovaCostureiraClicked"
+                Margin="50,5"/>
+
+        <Button Text="Voltar"
+                BackgroundColor="#8b8b8b"
+                FontSize="16"
+                TextColor="Black"
+                Clicked="clicouBotaoVoltar"
+                Margin="50,5"/>
+    </VerticalStackLayout>
+</ContentPage>
